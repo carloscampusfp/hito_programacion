@@ -1,4 +1,4 @@
-""" #EJERCICIO 1
+#EJERCICIO 1
 #Mostrar figuras por pantalla
 #Creamos un bucle qAue se encargará de calcular el area y perímetro en funcion de lo que haya seleccionado anteriormente
 while True:
@@ -23,8 +23,8 @@ while True:
         break
 #En caso de que se haya equivocado de numero de la lista se mostrará un error
     else: #mostramos por pantalla que ha ocurrido un error en el caso de que introduzcan un numero que no este en la lista
-        print("Error, vuelve a ingresar: ") """
-""" 
+        print("Error, vuelve a ingresar: ")
+
 #EJERCICIO 2
 #Juego de piedra papel o tijera
 import random #para poder usar comandos con el random
@@ -52,7 +52,7 @@ while counter_p != 3 and counter_m != 3: #he creado un bucle while que finalizar
 if counter_m == 3: 
     print("Lo siento, perdiste la partida")
 else:
-    print("FELICIDADES, GANASTE LA PARTIDA!!!") """
+    print("FELICIDADES, GANASTE LA PARTIDA!!!")
 
 #EJERCICIO 3
 #Simular el funcionamiento de una cuenta bancaria
